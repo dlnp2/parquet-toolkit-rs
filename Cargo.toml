@@ -1,0 +1,10 @@
+[package]
+name = "parquet-toolkit"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "4.1.6"
+polars = { version = "0.27.2", features = ["default", "parquet", "lazy", "dtype-full"] }
